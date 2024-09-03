@@ -97,3 +97,7 @@ starkli invoke --rpc http://0.0.0.0:5050 --account .c-wallets/account0_account.j
 
 []
 ```
+
+---
+
+![console](./assets/counter.png)
