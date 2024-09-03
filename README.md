@@ -1,4 +1,4 @@
-# Cairo Counter smart contract
+# [Cairo] Counter _smart contract_
 
 ## env setup
 
