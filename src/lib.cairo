@@ -6,6 +6,7 @@ trait ICounterContract<TContractState> {
 
 #[starknet::contract]
 mod CounterContract {
+    use counter::ICounterContract;
     #[storage]
     struct Storage {
         contador: u32,
@@ -20,8 +21,7 @@ mod CounterContract {
             self.contador.read()
         }
         fn inc_counter(ref self: ContractState) {
-            let current = self.contador.read();
-            self.contador.write(current + 1)
+            self.contador.write(self.contador.read() + 1);
         }
     }
 }
