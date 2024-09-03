@@ -92,7 +92,7 @@ starkli declare target/dev/counter_CounterContract.contract_class.json --rpc htt
 
 ### Deploy
 
-```sh
+```text
 starkli deploy --rpc http://0.0.0.0:5050  --account .c-wallets/account0_account.json --keystore .c-wallets/account0_keystore.json 0x01762dab61e29cba2e8adcf4ec56308c9983b5e12b4aa93be48165dd8f5ebb9a 0x1
 ```
 
