@@ -1,10 +1,10 @@
 # [Cairo] Counter _smart contract_
 
-## env setup
+## env setup - infra
 > [!TIP]
 > Version is important
 
-### _starkli_
+### _starkli_ ⚠️
 
 ```sh
 starkliup --version 0.3.4
@@ -23,7 +23,7 @@ asdf install scarb 2.6.5
 asdf global scarb 2.6.5
 ```
 
-## **setup**
+## **setup** - execution
 
 ```sh
 starknet-devnet --seed 2525635640
