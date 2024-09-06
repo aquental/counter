@@ -19,6 +19,7 @@ cargo install starknet-devnet
 ### _scarb_
 
 ```sh
+asdf plugin add scarb
 asdf install scarb 2.6.5
 asdf global scarb 2.6.5
 ```
